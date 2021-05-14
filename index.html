@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>ChickenPaint example</title>
+
+	<script src="node_modules/chickenpaint/resources/js/chickenpaint.js"></script>
+	<link rel="stylesheet" type="text/css" href="node_modules/chickenpaint/resources/css/chickenpaint.css">
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			new ChickenPaint({
+				uiElem: document.getElementById("chickenpaint-parent"),
+				
+				// If you have an image to load for editing (PNG or CHI), include these URLs:
+				// loadImageUrl: "./image.png",
+				// loadChibiFileUrl: "image.chi",
+				
+				// When you're hosting this on your own server you can add your own endpoints for drawing save here:
+				// saveUrl: "save.php",
+				// postUrl: "posting.php",
+				// exitUrl: "forum.php",
+				
+				allowDownload: true,
+				resourcesRoot: "node_modules/chickenpaint/resources/",
+				disableBootstrapAPI: true
+			});
+		});
+	</script>
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+	</style>
+</head>
+<body>
+
+<h1>ChickenPaint integration example</h1>
+<p>
+	ChickenPaint is an HTML5 port of Marc Schefer's excellent multi-layer drawing Oekaki Java applet ChibiPaint.
+</p>
+<p>
+	ChickenPaint itself is released under GPLv3-or-later, but this example project is released under the WTFPL, 
+	so you're free to use this project a basis for your integration.
+</p>
+<p>
+	You can get the <a href="https://github.com/thenickdude/chickenpaint-example">sourcecode for this integration here</a>,
+	and <a href="https://github.com/thenickdude/chickenpaint">the sourcecode for ChickenPaint itself here</a>.
+</p>
+
+<div id="chickenpaint-parent"></div>
+
+<p></p>
+
+</body>
+</html>
