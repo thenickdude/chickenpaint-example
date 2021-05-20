@@ -4,7 +4,7 @@
   "description": "Example of including ChickenPaint using NPM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/thenickdude/chickenpaint-example#readme",
   "dependencies": {
-    "chickenpaint": "^0.2.1"
+    "chickenpaint": "^0.2.2"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
   }
 }
