@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/thenickdude/chickenpaint-example#readme",
   "dependencies": {
-    "chickenpaint": "^0.1.1"
+    "chickenpaint": "^0.2.1"
   }
 }
