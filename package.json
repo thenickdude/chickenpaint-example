@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/thenickdude/chickenpaint-example#readme",
   "dependencies": {
-    "chickenpaint": "^0.4.0"
+    "chickenpaint": "^0.4.1"
   },
   "devDependencies": {
-    "serve": "^13.0.2"
+    "serve": "^14.0.1"
   }
 }
